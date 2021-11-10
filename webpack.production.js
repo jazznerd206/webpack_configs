@@ -5,12 +5,14 @@
  * 
  * required install scripts => 
  * npm i path
- * `npm i -D webpack webpack-cli babel-loader @babel-preset/env @babel-preset/env babel-plugin-styled-components mini-css-extract-plugin html-webpack-plugin terser-webpack-plugin`
+ * `npm i -D webpack webpack-cli css-loader babel-loader @babel-preset/env @babel-preset/env babel-plugin-styled-components mini-css-extract-plugin html-webpack-plugin terser-webpack-plugin`
  * 
  * see examples for more detail
  */
 
 const path = require('path');
+const base = require('./webpack.base');
+const { merge } = require('webpack-merge');
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = merge(base, {

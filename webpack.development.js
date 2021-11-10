@@ -5,7 +5,7 @@
  * 
  * required install scripts => 
  * npm i path
- * npm i -D webpack webpack-cli webpack-dev-server babel-loader @babel/preset-env @babel/preset-react babel-plugin-styled-components mini-css-extract-plugin html-webpack-plugin
+ * npm i -D webpack webpack-cli webpack-dev-server css-loader babel-loader @babel/preset-env @babel/preset-react babel-plugin-styled-components mini-css-extract-plugin html-webpack-plugin
  * 
  * see examples for more detail
  */
